@@ -1,6 +1,11 @@
 package com.hendisantika.studentlist;
 
-import com.hendisantika.studentlist.domain.*;
+import com.hendisantika.studentlist.domain.Course;
+import com.hendisantika.studentlist.domain.Student;
+import com.hendisantika.studentlist.domain.User;
+import com.hendisantika.studentlist.repository.CourseRepository;
+import com.hendisantika.studentlist.repository.StudentRepository;
+import com.hendisantika.studentlist.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

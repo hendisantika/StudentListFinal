@@ -1,9 +1,9 @@
 package com.hendisantika.studentlist.web;
 
 import com.hendisantika.studentlist.domain.Course;
-import com.hendisantika.studentlist.domain.CourseRepository;
 import com.hendisantika.studentlist.domain.Student;
-import com.hendisantika.studentlist.domain.StudentRepository;
+import com.hendisantika.studentlist.repository.CourseRepository;
+import com.hendisantika.studentlist.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

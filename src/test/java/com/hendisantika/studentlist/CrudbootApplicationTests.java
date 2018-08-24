@@ -1,9 +1,9 @@
 package com.hendisantika.studentlist;
 
 import com.hendisantika.studentlist.domain.Student;
-import com.hendisantika.studentlist.domain.StudentRepository;
 import com.hendisantika.studentlist.domain.User;
-import com.hendisantika.studentlist.domain.UserRepository;
+import com.hendisantika.studentlist.repository.StudentRepository;
+import com.hendisantika.studentlist.repository.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

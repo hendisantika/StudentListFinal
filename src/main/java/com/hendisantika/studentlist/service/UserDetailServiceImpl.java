@@ -1,8 +1,7 @@
 package com.hendisantika.studentlist.service;
 
 import com.hendisantika.studentlist.domain.User;
-import com.hendisantika.studentlist.domain.UserRepository;
-
+import com.hendisantika.studentlist.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,5 +1,8 @@
 package com.hendisantika.studentlist.web;
 
+import com.hendisantika.studentlist.domain.SignupForm;
+import com.hendisantika.studentlist.domain.User;
+import com.hendisantika.studentlist.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -10,10 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
-
-import com.hendisantika.studentlist.domain.SignupForm;
-import com.hendisantika.studentlist.domain.User;
-import com.hendisantika.studentlist.domain.UserRepository;
 
 @Controller
 public class UserController {

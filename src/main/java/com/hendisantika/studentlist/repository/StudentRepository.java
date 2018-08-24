@@ -1,8 +1,9 @@
-package com.hendisantika.studentlist.domain;
+package com.hendisantika.studentlist.repository;
+
+import com.hendisantika.studentlist.domain.Student;
+import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
-
-import org.springframework.data.repository.CrudRepository;
 
 public interface StudentRepository extends CrudRepository<Student, Long> {
 
