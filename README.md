@@ -24,3 +24,30 @@ admin/admin (role=ADMIN)
 
 ## Screenshot
 
+Login Page
+
+![Login Page](img/login.png "Login Page")
+
+Sign Up
+
+![Sign Up](img/signup.png "Sign Up")
+
+Admin Page
+
+![Admin Page](img/admin.png "Admin Page")
+
+Admin Page
+
+![Admin Page](img/admin1.png "Admin Page")
+
+Add New Student Page
+
+![Add New Student Page](img/add.png "Add New student Page")
+
+Add New Student Course
+
+![Add New Student Course](img/course.png "Add New Student Course")
+
+User Page
+
+![User Page](img/user.png "User Page")
