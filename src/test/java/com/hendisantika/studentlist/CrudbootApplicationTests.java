@@ -9,6 +9,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Optional;
+
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
@@ -42,11 +44,11 @@ public class CrudbootApplicationTests {
     
 	@Test
     public void addStudent() {
-		Student student = new Student("Test", "Student", "IT", "test@test.com");
-		
-		studentRepository.save(student);
-		Student findStudent = studentRepository.findOne(student.getId());
-		assertNotNull(findStudent);
+        Student student = new Student("Test", "Student", "IT", "test@test.com");
+
+        studentRepository.save(student);
+        Optional<Student> findStudent = studentRepository.findById(student.getId());
+        assertNotNull(findStudent);
     }
     
 }
